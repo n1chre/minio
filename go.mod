@@ -4,12 +4,12 @@ go 1.16
 
 require (
 	cloud.google.com/go v0.39.0
-	git.apache.org/thrift.git v0.13.0
 	github.com/Azure/azure-pipeline-go v0.2.2
 	github.com/Azure/azure-storage-blob-go v0.10.0
 	github.com/Azure/go-autorest/autorest/adal v0.9.1 // indirect
 	github.com/Shopify/sarama v1.27.2
 	github.com/alecthomas/participle v0.2.1
+	github.com/apache/thrift v0.13.0
 	github.com/bcicen/jstream v1.0.1
 	github.com/beevik/ntp v0.3.0
 	github.com/cespare/xxhash/v2 v2.1.1
