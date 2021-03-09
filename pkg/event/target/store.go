@@ -24,7 +24,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/minio/minio/pkg/event"
+	"github.com/n1chre/minio/pkg/event"
 )
 
 const retryInterval = 3 * time.Second

@@ -29,18 +29,18 @@ import (
 
 	minio "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/cmd/config/dns"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	"github.com/minio/minio/pkg/bucket/replication"
+	"github.com/n1chre/minio/cmd/config/dns"
+	"github.com/n1chre/minio/cmd/crypto"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/pkg/auth"
+	"github.com/n1chre/minio/pkg/bucket/lifecycle"
+	"github.com/n1chre/minio/pkg/bucket/replication"
 
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/bucket/versioning"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/hash"
+	objectlock "github.com/n1chre/minio/pkg/bucket/object/lock"
+	"github.com/n1chre/minio/pkg/bucket/policy"
+	"github.com/n1chre/minio/pkg/bucket/versioning"
+	"github.com/n1chre/minio/pkg/event"
+	"github.com/n1chre/minio/pkg/hash"
 )
 
 // APIError structure

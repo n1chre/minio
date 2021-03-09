@@ -31,11 +31,11 @@ import (
 
 	"github.com/minio/minio-go/v7/pkg/set"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/sync/errgroup"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/n1chre/minio/cmd/config/storageclass"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/pkg/madmin"
+	"github.com/n1chre/minio/pkg/sync/errgroup"
+	"github.com/n1chre/minio/pkg/wildcard"
 )
 
 type erasureServerPools struct {

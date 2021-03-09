@@ -22,10 +22,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	"github.com/minio/minio/pkg/bucket/policy"
+	xhttp "github.com/n1chre/minio/cmd/http"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/pkg/bucket/lifecycle"
+	"github.com/n1chre/minio/pkg/bucket/policy"
 )
 
 const (

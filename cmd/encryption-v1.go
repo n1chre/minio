@@ -31,9 +31,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
+	"github.com/n1chre/minio/cmd/crypto"
+	xhttp "github.com/n1chre/minio/cmd/http"
+	"github.com/n1chre/minio/cmd/logger"
 	"github.com/minio/sio"
 )
 

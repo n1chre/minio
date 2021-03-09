@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/pkg/auth"
+	xhttp "github.com/n1chre/minio/cmd/http"
+	"github.com/n1chre/minio/pkg/auth"
 )
 
 // credentialHeader data type represents structured form of Credential

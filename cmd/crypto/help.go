@@ -16,7 +16,7 @@
 
 package crypto
 
-import "github.com/minio/minio/cmd/config"
+import "github.com/n1chre/minio/cmd/config"
 
 // Help template for KMS vault
 var (

@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/pkg/console"
+	"github.com/n1chre/minio/pkg/console"
 )
 
 // Indicator if logging is enabled.

@@ -31,11 +31,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/cmd/http"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/rest"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/n1chre/minio/cmd/http"
+	xhttp "github.com/n1chre/minio/cmd/http"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/cmd/rest"
+	xnet "github.com/n1chre/minio/pkg/net"
 	xbufio "github.com/philhofer/fwd"
 	"github.com/tinylib/msgp/msgp"
 )

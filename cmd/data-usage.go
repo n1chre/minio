@@ -23,8 +23,8 @@ import (
 	"net/http"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/hash"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/pkg/hash"
 )
 
 const (

@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/klauspost/compress/zstd"
-	"github.com/minio/minio/pkg/s3select/json"
-	"github.com/minio/minio/pkg/s3select/sql"
+	"github.com/n1chre/minio/pkg/s3select/json"
+	"github.com/n1chre/minio/pkg/s3select/sql"
 	"github.com/minio/simdjson-go"
 )
 

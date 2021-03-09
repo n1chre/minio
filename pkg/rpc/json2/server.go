@@ -14,7 +14,7 @@ import (
 	"net/http"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/pkg/rpc"
+	"github.com/n1chre/minio/pkg/rpc"
 )
 
 var null = jsoniter.RawMessage([]byte("null"))

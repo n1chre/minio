@@ -19,8 +19,8 @@ package logger
 import (
 	"strings"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/pkg/env"
+	"github.com/n1chre/minio/cmd/config"
+	"github.com/n1chre/minio/pkg/env"
 )
 
 // Console logger target

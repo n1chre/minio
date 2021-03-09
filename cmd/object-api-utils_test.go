@@ -26,9 +26,9 @@ import (
 	"testing"
 
 	"github.com/klauspost/compress/s2"
-	"github.com/minio/minio/cmd/config/compress"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/pkg/trie"
+	"github.com/n1chre/minio/cmd/config/compress"
+	"github.com/n1chre/minio/cmd/crypto"
+	"github.com/n1chre/minio/pkg/trie"
 )
 
 // Tests validate bucket name.

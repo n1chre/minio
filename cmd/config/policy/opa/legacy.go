@@ -17,7 +17,7 @@
 package opa
 
 import (
-	"github.com/minio/minio/cmd/config"
+	"github.com/n1chre/minio/cmd/config"
 )
 
 // Legacy OPA envs

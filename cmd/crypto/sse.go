@@ -21,8 +21,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/ioutil"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/pkg/ioutil"
 	"github.com/minio/sio"
 )
 

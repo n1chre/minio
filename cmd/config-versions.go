@@ -19,19 +19,19 @@ package cmd
 import (
 	"sync"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/config/cache"
-	"github.com/minio/minio/cmd/config/compress"
-	xldap "github.com/minio/minio/cmd/config/identity/ldap"
-	"github.com/minio/minio/cmd/config/identity/openid"
-	"github.com/minio/minio/cmd/config/notify"
-	"github.com/minio/minio/cmd/config/policy/opa"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/event/target"
-	"github.com/minio/minio/pkg/quick"
+	"github.com/n1chre/minio/cmd/config"
+	"github.com/n1chre/minio/cmd/config/cache"
+	"github.com/n1chre/minio/cmd/config/compress"
+	xldap "github.com/n1chre/minio/cmd/config/identity/ldap"
+	"github.com/n1chre/minio/cmd/config/identity/openid"
+	"github.com/n1chre/minio/cmd/config/notify"
+	"github.com/n1chre/minio/cmd/config/policy/opa"
+	"github.com/n1chre/minio/cmd/config/storageclass"
+	"github.com/n1chre/minio/cmd/crypto"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/pkg/auth"
+	"github.com/n1chre/minio/pkg/event/target"
+	"github.com/n1chre/minio/pkg/quick"
 )
 
 /////////////////// Config V1 ///////////////////

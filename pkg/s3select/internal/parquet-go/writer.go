@@ -23,9 +23,9 @@ import (
 	"io"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/data"
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/schema"
+	"github.com/n1chre/minio/pkg/s3select/internal/parquet-go/data"
+	"github.com/n1chre/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
+	"github.com/n1chre/minio/pkg/s3select/internal/parquet-go/schema"
 )
 
 const (

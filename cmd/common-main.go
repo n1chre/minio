@@ -36,14 +36,14 @@ import (
 	dns2 "github.com/miekg/dns"
 	"github.com/minio/cli"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/cmd/config"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/console"
-	"github.com/minio/minio/pkg/env"
-	"github.com/minio/minio/pkg/handlers"
+	"github.com/n1chre/minio/cmd/config"
+	xhttp "github.com/n1chre/minio/cmd/http"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/pkg/auth"
+	"github.com/n1chre/minio/pkg/certs"
+	"github.com/n1chre/minio/pkg/console"
+	"github.com/n1chre/minio/pkg/env"
+	"github.com/n1chre/minio/pkg/handlers"
 )
 
 // serverDebugLog will enable debug printing

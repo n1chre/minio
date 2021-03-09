@@ -16,7 +16,7 @@
 
 package logger
 
-import "github.com/minio/minio/cmd/config"
+import "github.com/n1chre/minio/cmd/config"
 
 // Legacy envs
 const (

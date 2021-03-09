@@ -23,7 +23,7 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
+	"github.com/n1chre/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
 )
 
 func getColumns(

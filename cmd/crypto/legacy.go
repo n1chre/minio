@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/pkg/env"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/n1chre/minio/cmd/config"
+	"github.com/n1chre/minio/pkg/env"
+	xnet "github.com/n1chre/minio/pkg/net"
 )
 
 const (

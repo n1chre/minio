@@ -22,7 +22,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/minio/minio/pkg/disk"
+	"github.com/n1chre/minio/pkg/disk"
 )
 
 // WriteOnCloser implements io.WriteCloser and always

@@ -23,8 +23,8 @@ import (
 	"sync"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/pkg/sync/errgroup"
 )
 
 const (

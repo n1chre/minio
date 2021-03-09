@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/minio/minio/cmd/logger/message/audit"
+	"github.com/n1chre/minio/cmd/logger/message/audit"
 )
 
 // ResponseWriter - is a wrapper to trap the http response status code.

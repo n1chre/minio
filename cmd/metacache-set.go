@@ -30,10 +30,10 @@ import (
 	"time"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/color"
-	"github.com/minio/minio/pkg/console"
-	"github.com/minio/minio/pkg/hash"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/pkg/color"
+	"github.com/n1chre/minio/pkg/console"
+	"github.com/n1chre/minio/pkg/hash"
 )
 
 type listPathOptions struct {

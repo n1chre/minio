@@ -28,8 +28,8 @@ import (
 	"sync/atomic"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/logger"
-	xioutil "github.com/minio/minio/pkg/ioutil"
+	"github.com/n1chre/minio/cmd/logger"
+	xioutil "github.com/n1chre/minio/pkg/ioutil"
 )
 
 // WalkDirOptions provides options for WalkDir operations.

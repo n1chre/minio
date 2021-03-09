@@ -25,11 +25,11 @@ import (
 	"github.com/minio/minio-go/v7/pkg/set"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/config/dns"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/http/stats"
-	"github.com/minio/minio/cmd/logger"
+	"github.com/n1chre/minio/cmd/config/dns"
+	"github.com/n1chre/minio/cmd/crypto"
+	xhttp "github.com/n1chre/minio/cmd/http"
+	"github.com/n1chre/minio/cmd/http/stats"
+	"github.com/n1chre/minio/cmd/logger"
 )
 
 // Adds limiting body size middleware

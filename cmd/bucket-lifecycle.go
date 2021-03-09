@@ -28,14 +28,14 @@ import (
 
 	miniogo "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	sse "github.com/minio/minio/pkg/bucket/encryption"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/hash"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/s3select"
+	xhttp "github.com/n1chre/minio/cmd/http"
+	"github.com/n1chre/minio/cmd/logger"
+	sse "github.com/n1chre/minio/pkg/bucket/encryption"
+	"github.com/n1chre/minio/pkg/bucket/lifecycle"
+	"github.com/n1chre/minio/pkg/event"
+	"github.com/n1chre/minio/pkg/hash"
+	"github.com/n1chre/minio/pkg/madmin"
+	"github.com/n1chre/minio/pkg/s3select"
 )
 
 const (

@@ -57,14 +57,14 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/minio/minio-go/v7/pkg/s3utils"
 	"github.com/minio/minio-go/v7/pkg/signer"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/rest"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/hash"
+	"github.com/n1chre/minio/cmd/config"
+	"github.com/n1chre/minio/cmd/crypto"
+	xhttp "github.com/n1chre/minio/cmd/http"
+	"github.com/n1chre/minio/cmd/logger"
+	"github.com/n1chre/minio/cmd/rest"
+	"github.com/n1chre/minio/pkg/auth"
+	"github.com/n1chre/minio/pkg/bucket/policy"
+	"github.com/n1chre/minio/pkg/hash"
 )
 
 // TestMain to set up global env.

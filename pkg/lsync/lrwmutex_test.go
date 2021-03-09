@@ -28,7 +28,7 @@ import (
 
 	"runtime"
 
-	. "github.com/minio/minio/pkg/lsync"
+	. "github.com/n1chre/minio/pkg/lsync"
 )
 
 func testSimpleWriteLock(t *testing.T, duration time.Duration) (locked bool) {

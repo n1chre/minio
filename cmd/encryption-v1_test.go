@@ -28,8 +28,8 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"github.com/klauspost/compress/zstd"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
+	"github.com/n1chre/minio/cmd/crypto"
+	xhttp "github.com/n1chre/minio/cmd/http"
 	"github.com/minio/sio"
 )
 

@@ -28,8 +28,8 @@ import (
 	"time"
 
 	"github.com/gomodule/redigo/redis"
-	"github.com/minio/minio/pkg/event"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/n1chre/minio/pkg/event"
+	xnet "github.com/n1chre/minio/pkg/net"
 )
 
 // Redis constants
